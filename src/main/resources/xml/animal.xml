@@ -1,0 +1,6 @@
+<animal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../xsd/animal.xsd"
+        id="1" genderId="1" habitatId="1" feedingId="1">
+    <name>Elephant</name>
+    <weight>1300.50</weight>
+</animal>

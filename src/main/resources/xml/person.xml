@@ -1,0 +1,8 @@
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../xsd/person.xsd"
+        id="1" genderId="1" countryId="2">
+    <firstName>Nazareno</firstName>
+    <lastName>Bucciarelli</lastName>
+    <phoneNumber>3458493021</phoneNumber>
+    <birthDate>2003-03-14</birthDate>
+</person>

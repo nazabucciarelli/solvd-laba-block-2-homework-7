@@ -1,0 +1,5 @@
+<customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../xsd/customer.xsd" customerId="1"
+          personId="1">
+    <timesVisitingZoo>2</timesVisitingZoo>
+</customer>
