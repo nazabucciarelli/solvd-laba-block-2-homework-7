@@ -1,23 +1,22 @@
 package com.solvd.animals_mvc.model;
 
-import jakarta.xml.bind.annotation.*;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Objects;
 
-@XmlRootElement(name = "animal")
-@XmlAccessorType(XmlAccessType.FIELD)
+
 public class Animal {
-    @XmlAttribute
+    @JsonProperty
     private Long id;
-    @XmlElement
+    @JsonProperty
     private String name;
-    @XmlElement
+    @JsonProperty
     private double weight;
-    @XmlAttribute
+    @JsonProperty
     private Long genderId;
-    @XmlAttribute
+    @JsonProperty
     private Long habitatId;
-    @XmlAttribute
+    @JsonProperty
     private Long feedingId;
 
     public Animal() {

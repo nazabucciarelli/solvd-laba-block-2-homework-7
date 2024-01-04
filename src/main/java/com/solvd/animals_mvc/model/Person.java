@@ -1,27 +1,25 @@
 package com.solvd.animals_mvc.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.solvd.animals_mvc.model.exception.EmptyFieldException;
-import jakarta.xml.bind.annotation.*;
 
 import java.util.Date;
 import java.util.Objects;
 
-@XmlRootElement(name = "person")
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Person {
-    @XmlAttribute
+    @JsonProperty
     private Long id;
-    @XmlElement
+    @JsonProperty
     private Date birthDate; // This field was 'age' previously, but I changed it into Date to accomplish the JAXB homework requirements.
-    @XmlElement
+    @JsonProperty
     private String firstName;
-    @XmlElement
+    @JsonProperty
     private String lastName;
-    @XmlAttribute
+    @JsonProperty
     private Long genderId;
-    @XmlAttribute
+    @JsonProperty
     private Long countryId;
-    @XmlElement
+    @JsonProperty
     private String phoneNumber;
 
     public Person() {
