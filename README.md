@@ -9,7 +9,7 @@ map the JSON files into Java objects.
 
 To accomplish the requirements of the homework, I've created a folder named
 json in the resources folder and then created there JSON files which represent
-an exact class type in my model hierarchy. I consider that creating this JSON
+an exact class type in my models hierarchy. I consider that creating this JSON
 files was pretty much simpler than with XML. After, I added the Jackson 
 dependency into the pom.xml and used its annotations to define each JSON 
 property from the Java classes. Finally, in the main class I just created 
