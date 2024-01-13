@@ -1,17 +1,22 @@
 package com.solvd.animals_mvc.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.xml.bind.annotation.*;
 
 import java.util.Date;
 import java.util.Objects;
 
-
+@XmlRootElement(name = "customer")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Customer extends Person {
     @JsonProperty
+    @XmlAttribute
     private Long customerId;
     @JsonProperty
+    @XmlElement
     private int timesVisitingZoo;
     @JsonProperty
+    @XmlAttribute
     private Long personId;
 
     public Customer() {

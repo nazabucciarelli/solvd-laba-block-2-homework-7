@@ -3,13 +3,15 @@ This repository stores the 7th homework given by our mentor in the 2nd block of
 the Java Test Automation Course at Solvd Laba. It consists in creating five
 JSON files that represent the structure of five classes from the current 
 hierarchy, adding the Jackson library to the project and using its annotations to
-map the JSON files into Java objects.
+map the JSON files into Java objects. Edit: It was necessary as well implementing
+the logic to convert the Java objects into both XML and JSON files, so I did
+few changes in the Main.java class in order to accomplish this requirement.
 
 ## Explanation
 
 To accomplish the requirements of the homework, I've created a folder named
 json in the resources folder and then created there JSON files which represent
-an exact class type in my models hierarchy. I consider that creating this JSON
+an exact class type in my models' hierarchy. I consider that creating this JSON
 files was pretty much simpler than with XML. After, I added the Jackson 
 dependency into the pom.xml and used its annotations to define each JSON 
 property from the Java classes. Finally, in the main class I just created 

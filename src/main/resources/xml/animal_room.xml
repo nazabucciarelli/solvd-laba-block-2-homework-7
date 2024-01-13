@@ -1,5 +1,5 @@
-<animalRoom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:noNamespaceSchemaLocation="../xsd/animal_room.xsd" id="1" zooId="1">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<animalRoom id="1" zooId="1">
     <name>Amphibians</name>
     <capacity>75</capacity>
 </animalRoom>

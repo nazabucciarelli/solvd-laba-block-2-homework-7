@@ -7,7 +7,6 @@
     <list default="true" id="10b47513-74f6-435d-b37d-71b5cc18b5da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/AnimalRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/AnimalRoom.java" afterDir="false" />
@@ -21,6 +20,17 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Habitat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Habitat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/json/animal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/json/animal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/json/department.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/json/department.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/json/employee_identifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/json/employee_identifier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/json/habitat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/json/habitat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/json/person.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/json/person.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/json/zoo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/json/zoo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xml/animal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xml/animal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xml/animal_room.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xml/animal_room.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xml/customer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xml/customer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xml/person.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xml/person.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xml/zoo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xml/zoo.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,32 +65,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nazareno/dev/test-automation-course/solvd-laba-block-2-homework-7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.ignored.files&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "20",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/nazareno/dev/test-automation-course/solvd-laba-block-2-homework-6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -202,7 +212,8 @@
       <workItem from="1704300371010" duration="4359000" />
       <workItem from="1704309991505" duration="2304000" />
       <workItem from="1704312657189" duration="19000" />
-      <workItem from="1704339728855" duration="1232000" />
+      <workItem from="1704339728855" duration="1476000" />
+      <workItem from="1705177412062" duration="4207000" />
     </task>
     <servers />
   </component>

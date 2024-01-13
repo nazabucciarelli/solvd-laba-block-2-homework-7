@@ -1,19 +1,27 @@
 package com.solvd.animals_mvc.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.xml.bind.annotation.*;
 
 import java.util.Objects;
 
+@XmlRootElement(name = "employeeIdentifier")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class EmployeeIdentifier {
     @JsonProperty
+    @XmlAttribute
     private Long id;
     @JsonProperty
+    @XmlAttribute
     private Long positionId;
     @JsonProperty
+    @XmlAttribute
     private Long departmentId;
     @JsonProperty
+    @XmlElement
     private String identificationCode;
     @JsonProperty
+    @XmlElement
     private String imageUrl;
 
     public EmployeeIdentifier() {

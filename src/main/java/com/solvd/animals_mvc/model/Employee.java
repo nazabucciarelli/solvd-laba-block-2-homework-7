@@ -1,20 +1,28 @@
 package com.solvd.animals_mvc.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.xml.bind.annotation.*;
 
 import java.sql.Date;
 import java.util.Objects;
 
+@XmlRootElement(name = "employee")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Employee extends Person {
     @JsonProperty
+    @XmlAttribute
     private Long id;
     @JsonProperty
+    @XmlElement
     private Date entryDate;
     @JsonProperty
+    @XmlElement
     private double salary;
     @JsonProperty
+    @XmlAttribute
     private Long personId;
     @JsonProperty
+    @XmlAttribute
     private Long employeeIdentifierId;
 
     public Employee() {
